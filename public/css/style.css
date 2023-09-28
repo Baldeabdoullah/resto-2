@@ -1,0 +1,164 @@
+/* ICONES BOOTSTRAP */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/*GOOGLE FONT  */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap");
+
+* {
+    font-family: "Inconsolata", monospace;
+}
+body {
+    background: #fff;
+}
+
+.my-card:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+nav {
+    background-color: #fff;
+}
+.etoile i {
+    color: #e17055;
+}
+
+.user-item {
+    box-shadow: 5px 5px 30px #b2bec3;
+    transition: 0.3s;
+}
+.user-item:hover {
+    transform: translateY(-10px);
+}
+
+.user-item .bi-quote {
+    font-size: 30px;
+    color: #e67e22;
+}
+
+.user-star i {
+    color: #e67e22;
+}
+
+.partners-img-container img {
+    max-width: 170px;
+}
+
+.lefooter {
+    background: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hoover-item {
+    transition: 0.4s;
+}
+
+.hoover-item:hover {
+    transform: translateY(-10px);
+}
+
+/* L'ACCUEIL*/
+
+.menu-content {
+    position: relative;
+}
+
+.menu-text {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+
+/* LA PAGE DES DETAILS DES PRODUITS */
+
+.detail-container {
+    align-items: center;
+}
+.detail-img-container {
+    max-width: 380px;
+}
+
+.main-img img,
+.imgs img {
+    width: 100%;
+}
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.imgs img {
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in 1 forwards;
+}
+
+.detail-text-container a {
+    color: #fff;
+    padding: 10px 10px;
+    background: #e67e22;
+    border-radius: 20px;
+}
+
+.boutons-orange {
+    color: #fff;
+    padding: 5px 20px;
+    background: #e67e22;
+    border-radius: 20px;
+}
+
+.connexion-container {
+    max-width: 500px;
+    background: #fff;
+    box-shadow: 5px 5px 30px #b2bec3;
+}
+
+.connexion-input {
+    padding: 10px 20px;
+    color: #000;
+
+    width: 300px;
+    margin: 0 10px;
+}
+
+.table-style {
+    border-collapse: collapse;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    margin: 0px auto;
+    border: 2px solid midnightblue;
+}
+
+.thead tr {
+    background-color: midnightblue;
+    color: #fff;
+    text-align: left;
+}
+
+.tr th,
+.tr td {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.tbody tr,
+.tbody td {
+    border: 1px solid #ddd;
+}
